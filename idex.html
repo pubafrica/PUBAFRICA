@@ -1,12 +1,204 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PUBAFRICA</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PUBAFRICA — La visibilité qui fait grandir votre image</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f9fc;
+      color: #123;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0b73b9;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 38px;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      margin-top: 5px;
+      font-size: 16px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 70px 20px;
+      background: white;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      color: #0b73b9;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 19px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 14px 28px;
+      background: #0b73b9;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .services {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .services h2 {
+      color: #0b73b9;
+      margin-bottom: 30px;
+      font-size: 30px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      width: 300px;
+      padding: 30px 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      color: #0b73b9;
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      background: #0b73b9;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .contact h2 {
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: #073b61;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 30px;
+      }
+
+      .hero h2 {
+        font-size: 28px;
+      }
+
+      .hero p {
+        font-size: 17px;
+      }
+
+      .card {
+        width: 100%;
+        max-width: 350px;
+      }
+    }
+  </style>
 </head>
+
 <body>
+
+  <header>
     <h1>PUBAFRICA</h1>
-    <p>La visibilité qui fait grandir votre entreprise.</p>
+    <p>La visibilité qui fait grandir votre image.</p>
+  </header>
+
+  <section class="hero">
+    <h2>Donnez de la visibilité à vos activités</h2>
+    <p>
+      PUBAFRICA accompagne les entreprises, marques, événements
+      et entrepreneurs dans la promotion de leurs activités.
+    </p>
+
+    <a href="#services" class="button">Découvrir nos services</a>
+  </section>
+
+  <section class="services" id="services">
+    <h2>Nos services</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>📢 Promotion</h3>
+        <p>
+          Faites connaître vos produits, services, événements
+          et activités auprès d'un public plus large.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>📱 Communication digitale</h3>
+        <p>
+          Développez votre visibilité grâce à une diffusion
+          adaptée aux réseaux sociaux et aux supports numériques.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🚀 Visibilité</h3>
+        <p>
+          Mettez votre entreprise sous les projecteurs grâce
+          à une communication professionnelle et efficace.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Vous souhaitez promouvoir votre activité ?</h2>
+    <p>Contactez PUBAFRICA pour donner plus de visibilité à votre projet.</p>
+
+    <a href="mailto:pubafrica1@gmail.com" class="button">
+      Nous contacter
+    </a>
+  </section>
+
+  <footer>
+    © 2026 PUBAFRICA — Tous droits réservés.
+  </footer>
+
 </body>
 </html>
